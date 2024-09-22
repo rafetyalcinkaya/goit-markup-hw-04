@@ -84,7 +84,7 @@ h1 {
   width: 496px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  background-color: #2e2f42;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -185,9 +185,6 @@ h1 {
   background-color: #ffffff;
   text-decoration: none;
   list-style-type: none;
-}
-
-.sec-fourth h2 {
 }
 
 .sec-fourth h3 {
@@ -343,14 +340,16 @@ h1 {
   align-items: center;
 }
 
-.sec-third ul {
+.social-media {
+  list-style-type: none;
   display: flex;
-  align-items: center;
+  width: 232px;
+  height: 40px;
   justify-content: center;
-  flex-direction: row;
-  gap: 32px;
-  text-align: center;
+  align-items: center;
+  gap: 24px;
   margin: 0 auto;
+  padding-top: 8px;
 }
 
 .sec-third h2 {
@@ -481,5 +480,39 @@ h1 {
 
 footer a span {
   color: #4d5ae5;
+}
+
+.sec-button {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("/images/people-office\ 1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#icon-icon-1 {
+  border: 1px solid #8e8f99;
+  border-radius: 5%;
+}
+#icon-icon-2 {
+  border: 1px solid #8e8f99;
+  border-radius: 5%;
+}
+#icon-icon-3 {
+  border: 1px solid #8e8f99;
+  border-radius: 5%;
+}
+#icon-icon-4 {
+  border: 1px solid #8e8f99;
+  border-radius: 5%;
+}
+
+.svg-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
