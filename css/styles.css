@@ -515,3 +515,31 @@ footer a span {
   display: flex;
   justify-content: space-between;
 }
+
+.social-media-foot{
+  color: #FFFFFF;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  margin-bottom: 16px;
+}
+
+.social-foot{
+  width: 208px;
+  height: 80px;
+  
+}
+
+.just-foot-div{
+  display: flex;
+  gap: 120px;
+}
+
+.social-media-icon-list-foot{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  width: 208px;
+  height: 40px;
+}
