@@ -389,6 +389,8 @@ h1 {
   background-color: #ffffff;
   width: 264px;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
+    0px 1px 6px 0px #2e2f4214;
 }
 
 .çalisanlar {
@@ -543,7 +545,6 @@ footer a span {
   height: 40px;
 }
 
-
 .web-nav-siralama,
 .mail-tel {
   display: inline-block;
@@ -554,16 +555,60 @@ footer a span {
 .mail-tel::after {
   content: "";
   position: absolute;
-  bottom: -2px;
+  bottom: -25px;
   width: 0;
-  height: 2px;
+  height: 3px;
   background-color: #404bbf;
-  transition: width 0.3s ease;
   left: 0;
-
 }
 
-.web-nav-siralama:hover::after,
-.mail-tel:hover::after {
+.web-nav-siralama:active::after,
+.mail-tel:active::after {
   width: 100%;
+}
+
+.web-nav-siralama:active::after,
+.mail-tel:active::after {
+  width: 100%;
+}
+
+
+#icon-twitter {
+  transition-duration:250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
+}
+
+#icon-twitter:hover {
+  --color1: #404bbf;
+}
+
+#icon-facebook {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
+}
+
+#icon-facebook:hover {
+  --color1: #404bbf;
+}
+
+#icon-linkedin {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
+}
+
+#icon-linkedin:hover {
+  --color1: #404bbf;
+}
+
+#icon-insta {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
+}
+
+#icon-insta:hover {
+  --color1: #404bbf;
 }
