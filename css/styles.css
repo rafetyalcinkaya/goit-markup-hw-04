@@ -516,8 +516,8 @@ footer a span {
   justify-content: space-between;
 }
 
-.social-media-foot{
-  color: #FFFFFF;
+.social-media-foot {
+  color: #ffffff;
   font-weight: 500px;
   font-size: 16px;
   line-height: 24px;
@@ -525,21 +525,45 @@ footer a span {
   margin-bottom: 16px;
 }
 
-.social-foot{
+.social-foot {
   width: 208px;
   height: 80px;
-  
 }
 
-.just-foot-div{
+.just-foot-div {
   display: flex;
   gap: 120px;
 }
 
-.social-media-icon-list-foot{
+.social-media-icon-list-foot {
   display: flex;
   list-style: none;
   gap: 24px;
   width: 208px;
   height: 40px;
+}
+
+
+.web-nav-siralama,
+.mail-tel {
+  display: inline-block;
+  position: relative;
+}
+
+.web-nav-siralama::after,
+.mail-tel::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #404bbf;
+  transition: width 0.3s ease;
+  left: 0;
+
+}
+
+.web-nav-siralama:hover::after,
+.mail-tel:hover::after {
+  width: 100%;
 }
