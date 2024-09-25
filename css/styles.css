@@ -572,10 +572,9 @@ footer a span {
   width: 100%;
 }
 
-
 #icon-twitter {
-  transition-duration:250ms;
-  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: var(--color1);
 }
 
@@ -611,4 +610,44 @@ footer a span {
 
 #icon-insta:hover {
   --color1: #404bbf;
+}
+
+#icon-instagram-f:hover {
+  --color1: #31d0aa;
+}
+
+#icon-instagran-f {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
+}
+
+#icon-facebook-f:hover {
+  --color1: #31d0aa;
+}
+
+#icon-facebook-f {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
+}
+
+#icon-twitter-f:hover {
+  --color1: #31d0aa;
+}
+
+#icon-twitter-f {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
+}
+
+#icon-linkedin-f:hover {
+  --color1: #31d0aa;
+}
+
+#icon-linkedin-f {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
 }
