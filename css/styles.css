@@ -196,8 +196,6 @@ h1 {
   letter-spacing: 2%;
 }
 
-
-
 .sec-fourth li {
   text-decoration: none;
   list-style-type: none;
@@ -427,7 +425,6 @@ h1 {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  
 }
 
 .app-baslik {
@@ -648,14 +645,13 @@ footer a span {
 }
 
 .foto-div {
-  height:calc(100%-120px);
+  height: calc(100%-120px);
   width: 100%;
   position: relative;
   overflow: hidden;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .foto-div img {
@@ -671,14 +667,13 @@ footer a span {
   height: 100%;
   background-color: #4d5ae5;
   opacity: 0;
-  
 }
 
 .foto-div:hover::before {
   opacity: 1;
 }
 
-.mavi-yazi{
+.mavi-yazi {
   position: absolute;
   top: 0;
   left: 0;
@@ -692,11 +687,11 @@ footer a span {
   transition: none;
 }
 
-.foto-div:hover .mavi-yazi{
+.foto-div:hover .mavi-yazi {
   opacity: 1;
 }
 
-.mavi-yazi-div{
+.mavi-yazi-div {
   color: #f4f4fd;
   opacity: 1;
   top: 40px;
@@ -708,9 +703,14 @@ footer a span {
   letter-spacing: 2%;
 }
 
-.beyaz-yazi-div{
+.beyaz-yazi-div {
   font-size: 16px;
   letter-spacing: 2%;
   line-height: 1.5;
   color: #434455;
+}
+
+.app-uygulama:hover {
+  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
+    0px 1px 6px 0px #2e2f4214;
 }
