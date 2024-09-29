@@ -86,7 +86,9 @@ img {
   padding: 188px 0;
   box-sizing: border-box;
   text-align: center;
-  max-width: 100%;
+  max-width: 1440px;
+  height: 600px;
+  background-position: center;
 }
 
 h1 {
@@ -123,6 +125,9 @@ h1 {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 
 .buton:hover {
@@ -293,6 +298,10 @@ h1 {
   line-height: 1.5;
   letter-spacing: 2%;
   color: #2e2f42;
+  position: relative;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
 .siralama-ilk a {
@@ -539,26 +548,31 @@ footer a span {
 .mail-tel {
   display: inline-block;
   position: relative;
+  
 }
 
-.web-nav-siralama::after,
-.mail-tel::after {
+.web-nav-siralama:hover:after,
+.mail-tel:hover:after {
   content: "";
   position: absolute;
   bottom: -25px;
   width: 0;
-  height: 3px;
+  height: 4px;
   background-color: #404bbf;
   left: 0;
+  border-radius: 2px;
+  transition-duration: 250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1); ;
+  
 }
 
-.web-nav-siralama:active::after,
-.mail-tel:active::after {
+.web-nav-siralama:hover::after,
+.mail-tel:hover::after {
   width: 100%;
 }
 
-.web-nav-siralama:active::after,
-.mail-tel:active::after {
+.web-nav-siralama:hover::after,
+.mail-tel:hover::after {
   width: 100%;
 }
 
